@@ -113,8 +113,8 @@
     self.tView = [[UITextView alloc] initWithFrame:CGRectMake(10, 20, self.view.bounds.size.width-20, 300)];
     self.tView.text = @"点击开始说话按钮，进行语音识别!";
     self.tView.backgroundColor = [UIColor lightGrayColor];
-    self.tView.textColor = [UIColor blueColor];
-    self.tView.font = [UIFont systemFontOfSize:18];
+    self.tView.textColor = [UIColor redColor];
+    self.tView.font = [UIFont systemFontOfSize:20];
     self.tView.editable = NO;
     self.tView.layer.cornerRadius = 10;
     self.tView.layer.masksToBounds = YES;

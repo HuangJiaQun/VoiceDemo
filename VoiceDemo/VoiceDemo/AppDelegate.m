@@ -24,6 +24,7 @@
     UITabBarController *tabBarVC = [[UITabBarController alloc] init];
     tabBarVC.viewControllers = [NSArray arrayWithObjects:srVC, ttsVC, nil];
     self.window.rootViewController = tabBarVC;
+    //版本二
     return YES;
 }
 

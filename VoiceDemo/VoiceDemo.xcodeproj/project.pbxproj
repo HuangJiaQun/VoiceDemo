@@ -31,7 +31,6 @@
 		D5DA3C7323AA464500300C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5DA3C7223AA464500300C32 /* Assets.xcassets */; };
 		D5DA3C7623AA464500300C32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5DA3C7423AA464500300C32 /* LaunchScreen.storyboard */; };
 		D5DA3C7923AA464500300C32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DA3C7823AA464500300C32 /* main.m */; };
-		D5F7F59123B5BE9F00C74921 /* MyVc.m in Sources */ = {isa = PBXBuildFile; fileRef = D5F7F59023B5BE9F00C74921 /* MyVc.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,8 +67,6 @@
 		D5DA3C7523AA464500300C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5DA3C7723AA464500300C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5DA3C7823AA464500300C32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D5F7F58F23B5BE9F00C74921 /* MyVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyVc.h; sourceTree = "<group>"; };
-		D5F7F59023B5BE9F00C74921 /* MyVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyVc.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,8 +176,6 @@
 				D5A8023D23ACAFFE008DCCB9 /* YiDa_SpeechRecognizerVC.m */,
 				D56294C823ABBFCE00D33B9F /* YiDa_TTSViewController.h */,
 				D56294C923ABBFCE00D33B9F /* YiDa_TTSViewController.m */,
-				D5F7F58F23B5BE9F00C74921 /* MyVc.h */,
-				D5F7F59023B5BE9F00C74921 /* MyVc.m */,
 				D56294CB23ABC24300D33B9F /* UNtil */,
 			);
 			path = VoiceDemo;
@@ -256,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5F7F59123B5BE9F00C74921 /* MyVc.m in Sources */,
 				D5DA3C6E23AA464200300C32 /* ViewController.m in Sources */,
 				D56294D223ABC24300D33B9F /* MBProgressHUD.m in Sources */,
 				D56294CA23ABBFCE00D33B9F /* YiDa_TTSViewController.m in Sources */,
